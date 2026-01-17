@@ -65,3 +65,7 @@ class Controller:
             )
 
         self._view.update()
+
+    def handle_path(self, e):
+        self._view.show_alert("Funzione Calcola Percorso non ancora implementata.")
+        self._view.update()
